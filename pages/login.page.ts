@@ -1,6 +1,6 @@
 import { Page, Locator } from "@playwright/test";
 export class LoginPage {
-  // Class properties with their types
+  // Class properties with their types (typescript)
   private page: Page;
   private username_textbox: Locator;
   private password_textbox: Locator;
