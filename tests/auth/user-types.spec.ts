@@ -3,7 +3,7 @@ import { LoginPage } from "../../pages/login.page";
 import users from "../../data/users.json";
 
 for (const user of users) {
-  test(`Login with user ${user.username}`, async ({ page }) => {
+  test(`Login with user ${user.username} @regression`, async ({ page }) => {
     const loginPage = new LoginPage(page);
 
     await loginPage.goToLoginPage();

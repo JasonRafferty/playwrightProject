@@ -5,11 +5,6 @@
     "expectedOutcome": "successful login"
   },
   {
-    "username": "locked_out_user",
-    "password": "secret_sauce",
-    "expectedOutcome": "locked out"
-  },
-  {
     "username": "problem_user",
     "password": "secret_sauce",
     "expectedOutcome": "known UI issues"

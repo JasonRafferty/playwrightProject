@@ -22,4 +22,5 @@ test("Login fails with invalid credentials @regression", async ({ page }) => {
       "Epic sadface: Username and password do not match any user in this service"
     )
   ).toBeVisible();
+  await expect(page).toHaveURL("https://www.saucedemo.com/");
 });
